@@ -1,4 +1,5 @@
 ﻿var prefab : Transform;
+var coinprefab : Transform;
 
 function Get_X()
 {
@@ -27,10 +28,28 @@ function Get_X()
 		return (5);
 }
 
+Invoke("ToBlack", 8);
+
+
+function ToBlack()
+{
+	this.gameObject.renderer.material.color = Color(0.5, 0.5, 0.5, 1);
+
+}
+
 function Start () {
+	var rdm;
+	rdm = Random.value;
+	if (rdm < 0.05)
+	{
+	Instantiate (coinprefab, Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y + 1,
+								 this.gameObject.transform.position.z), Quaternion.identity);								 							 
+	}
 	yield WaitForSeconds(0.5);
 	Instantiate (prefab, Vector3(this.gameObject.transform.position.x + Get_X(), this.gameObject.transform.position.y,
 								 this.gameObject.transform.position.z + Get_X() ), Quaternion.identity);
 	yield WaitForSeconds(10);
 	Destroy(gameObject);
 }
+
+

@@ -3,7 +3,6 @@ function Start () {
 	var rdm;
 	rdm = Random.Range(0, 5);
 
-	Debug.Log(rdm);
 	if (rdm == 0)
 		this.gameObject.renderer.material.color = Color.white;		
 	else if(rdm == 1)

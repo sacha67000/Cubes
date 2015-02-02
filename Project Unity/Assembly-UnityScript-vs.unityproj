@@ -46,11 +46,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CoinScript.js" />
      <Compile Include="Assets\Scripts\ColorGen.js" />
      <Compile Include="Assets\Scripts\End.js" />
      <Compile Include="Assets\Scripts\Exit.js" />
      <Compile Include="Assets\Scripts\GeneratingCubes.js" />
      <Compile Include="Assets\Scripts\Move.js" />
+     <Compile Include="Assets\Scripts\Pause.js" />
      <Compile Include="Assets\Scripts\Photo.js" />
      <Compile Include="Assets\Scripts\ScoreCount.js" />
      <Compile Include="Assets\Scripts\Scores Scene\GoBack.js" />
@@ -59,7 +61,7 @@
      <Compile Include="Assets\Scripts\Start.js" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>E:/Project Unity/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/Sacha/Desktop/My Games/Cubes/Project Unity/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

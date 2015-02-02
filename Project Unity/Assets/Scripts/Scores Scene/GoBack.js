@@ -6,6 +6,7 @@ function Start () {
 
 function OnMouseUp () 
 {
+	Time.timeScale = 1;
 	Application.LoadLevel("Menu");
 }
 
