@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\ChangeColor.js" />
      <Compile Include="Assets\Scripts\CoinScript.js" />
      <Compile Include="Assets\Scripts\ColorGen.js" />
      <Compile Include="Assets\Scripts\End.js" />

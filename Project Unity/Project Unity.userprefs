@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GeneratingCubes.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ChangeColor.js">
     <Files>
-      <File FileName="Assets\Scripts\GeneratingCubes.js" Line="37" Column="1" />
+      <File FileName="Assets\Scripts\GeneratingCubes.js" Line="31" Column="1" />
+      <File FileName="Assets\Scripts\ChangeColor.js" Line="15" Column="52" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

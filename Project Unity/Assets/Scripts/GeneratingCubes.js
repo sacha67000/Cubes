@@ -28,14 +28,6 @@ function Get_X()
 		return (5);
 }
 
-Invoke("ToBlack", 8);
-
-
-function ToBlack()
-{
-	this.gameObject.renderer.material.color = Color(0.5, 0.5, 0.5, 1);
-
-}
 
 function Start () {
 	var rdm;
